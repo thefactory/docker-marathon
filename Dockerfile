@@ -7,8 +7,8 @@ FROM thefactory/mesos
 MAINTAINER Mike Babineau mike@thefactory.com
 
 # Download Marathon
-ADD https://github.com/mesosphere/marathon/archive/marathon-0.5.0.tar.gz /tmp/marathon.tgz
-RUN tar xzf /tmp/marathon.tgz -C /opt && rm -f /tmp/marathon.tgz
+ADD http://downloads.mesosphere.io/marathon/marathon-0.5.0/marathon-0.5.0.tgz /tmp/marathon.tgz
+RUN mkdir -p /opt/marathon && tar xzf /tmp/marathon.tgz -C /opt/marathon --strip=1 && rm -f /tmp/marathon.tgz
 
 USER root
 EXPOSE 8080
