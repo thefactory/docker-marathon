@@ -2,7 +2,7 @@
 #
 # VERSION       1
 
-FROM thefactory/mesos
+FROM thefactory/mesos:0.19.1
 
 MAINTAINER Mike Babineau mike@thefactory.com
 
