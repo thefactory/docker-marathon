@@ -5,7 +5,7 @@ Available on the Docker Index as [thefactory/marathon](https://index.docker.io/u
     docker pull thefactory/marathon
 
 ### Versions
-* Marathon 0.7.0-RC2
+* Marathon 0.7.0-RC3
 * Mesos 0.20.0
 
 ### Usage
