@@ -5,11 +5,11 @@ Available on the Docker Index as [thefactory/marathon](https://index.docker.io/u
     docker pull thefactory/marathon
 
 ### Versions
-* Marathon 0.7.6
-* Mesos 0.21.0
+* Marathon 0.8.0
+* Mesos 0.21.1
 
 ### Usage
-For Marathon to register with the Mesos cluster, you will need to enable host networking with `--net=host` (available in Docker 0.11+, see [announcement](http://blog.docker.io/2014/05/docker-0-11-release-candidate-for-1-0/)).
+For Marathon to register with the Mesos cluster, you will need to enable host networking with `--net=host`.
 
 Starting the container:
 
